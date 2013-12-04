@@ -95,7 +95,7 @@ module Reviewed
       end
 
       def configured_params(params)
-        if configured = configatron.reviewed_cache_key.retrieve(params)
+        if configured = configatron.reviewed_cache.retrieve(params)
           configured.flatten
         else
           []

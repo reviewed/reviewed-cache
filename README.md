@@ -1,4 +1,4 @@
-# Reviewed::Cache::Key
+# Reviewed::Cache
 
 This is a gem for making cache keys, plain and simple.
 
